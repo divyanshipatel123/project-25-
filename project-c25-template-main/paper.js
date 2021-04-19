@@ -21,7 +21,9 @@ class Paper{
 
 	}
 	display()
-	{
+	{        
+		    
+
 			var pos_y = this.body.position.y;
 			var pos_x = this.body.position.x
 			var angle = this.body.angle;
