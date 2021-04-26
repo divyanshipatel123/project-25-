@@ -6,7 +6,7 @@ class Paper{
 		 'density' : 1.5,
 		 'friction' : 1.0,
 		 'restitution' : 2.5,
-		 'isStatic' : true
+		 'isStatic' : false
 	 }
 		this.x = x;
 		this.y = y;
@@ -15,7 +15,7 @@ class Paper{
 		
 		
 		this.image=loadImage("paper.png")
-		this.body=Bodies.rectangle(this.x, this.y, this.Width, this.Height)
+		this.body=Bodies.rectangle(this.x, this.y, this.Width, this.Height , options)
 		World.add(world, this.body)
 		
 
