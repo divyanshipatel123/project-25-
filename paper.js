@@ -5,7 +5,7 @@ class Paper{
 	 var options={
 		 'density' : 1.5,
 		 'friction' : 1.0,
-		 'restitution' : 2.5,
+		 'restitution' : 0.8,
 		 'isStatic' : false
 	 }
 		this.x = x;
